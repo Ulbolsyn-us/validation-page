@@ -70,6 +70,7 @@ export default {
             const googleUser = await this.$gAuth.signIn();
             console.log("googlUser", googleUser);
             this.$gAuth.isAuthorized;
+            this.$router.push('/welcome')
         } 
     }
 }
